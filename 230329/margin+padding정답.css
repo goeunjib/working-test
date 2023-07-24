@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body
+    {font-family: "나눔스퀘어", "맑은 고딕", 돋움, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;}
+
+h1
+    {background-color: rgb(131, 131, 212);
+    color: white;
+    border-bottom: 10px solid #a7c5ff;
+    width: 400px;
+    margin: 50px auto 20px;
+    padding: 15px;
+    border-radius: 30px 30px 0 0;}
+
+h2
+    {text-decoration: line-through;
+    font-size: 22px;}
+
+ul li
+    {border: 1px solid  #333;
+    text-align: left;
+    padding: 5px;
+    margin: 2px auto;
+    max-width: 500px;}
+
+.url
+    {background-color: rgb(208, 197, 226);
+    min-width: 300px;  /* 400px이하는 작아지지 않음. 최소 크기 400유지 */
+    max-width: 70%;    /* 70%이상으로는 커지지 않음. 최대 크기 70%유지 */
+    margin: 1px auto;
+    padding: 10px 0;}
+.url a,
+.wrapper .site a
+    {text-decoration: none;
+    color: white;}
+.url:hover
+    {background-color: rgb(131, 131, 212);}
+
+.wrapper
+    {min-width: 300px;
+    max-width: 70%;
+    margin: 50px auto;}
+.wrapper .site
+    {background-color: rgb(63, 73, 160);
+    border-bottom: 1px solid #e0e0e0;
+    height: 40px;
+    line-height: 40px;
+}
+/* "한줄인 경우" 세로 중앙 정렬 방법
+height와 line-height의 값을 동일하게 적용
+폰트 사이즈의 크기가 큰 경우는 잘 안됨. */

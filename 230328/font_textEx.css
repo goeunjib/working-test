@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+h1  {background-color: #594545;
+    text-align: center;
+    color: white;}
+
+#blank {background-color: #87cefa;}
+
+#whiteblank {background-color: #efefef;
+    text-align: center;}
+
+.under {color: #425f57;
+    text-align: center;
+    text-decoration: underline;}
+
+.redtext {font-size: small;
+    color: #ff0000;}
+
+.pinkblank {background-color: #fb2576;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;}
+
+.detail {color: #425f57;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;}
+
+.orangeblank1 {background-color: #ffa500;
+    text-align: right;
+    font-weight: bold;}
+
+.explanation1 {font-size: 16px;}
+
+.orangeblank2 {background-color: #ffa500;
+    text-align: right;
+    font-weight: bold;}
+
+.explanation2 {font-size: 16px;}
+
+.spring {background-color: #ff8787;}
+.fall {background-color: #ff8787;}
+
+.order {font-weight: bold;}
+
+.test {color: #ff0000;}
